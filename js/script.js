@@ -69,3 +69,8 @@ modeBtn.addEventListener("click", function () {
   }
   document.body.classList.toggle("dark");
 });
+
+// Aos function
+AOS.init({
+    duration: 1000
+});
